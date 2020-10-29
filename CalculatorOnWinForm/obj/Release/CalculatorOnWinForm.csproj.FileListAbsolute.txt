@@ -1,0 +1,10 @@
+C:\Users\offic\source\repos\CalculatorOnWinForm\CalculatorOnWinForm\bin\Release\CalculatorOnWinForm.exe.config
+C:\Users\offic\source\repos\CalculatorOnWinForm\CalculatorOnWinForm\bin\Release\CalculatorOnWinForm.exe
+C:\Users\offic\source\repos\CalculatorOnWinForm\CalculatorOnWinForm\bin\Release\CalculatorOnWinForm.pdb
+C:\Users\offic\source\repos\CalculatorOnWinForm\CalculatorOnWinForm\obj\Release\CalculatorOnWinForm.csprojAssemblyReference.cache
+C:\Users\offic\source\repos\CalculatorOnWinForm\CalculatorOnWinForm\obj\Release\CalculatorOnWinForm.Properties.Resources.resources
+C:\Users\offic\source\repos\CalculatorOnWinForm\CalculatorOnWinForm\obj\Release\CalculatorOnWinForm.csproj.GenerateResource.cache
+C:\Users\offic\source\repos\CalculatorOnWinForm\CalculatorOnWinForm\obj\Release\CalculatorOnWinForm.csproj.CoreCompileInputs.cache
+C:\Users\offic\source\repos\CalculatorOnWinForm\CalculatorOnWinForm\obj\Release\CalculatorOnWinForm.exe
+C:\Users\offic\source\repos\CalculatorOnWinForm\CalculatorOnWinForm\obj\Release\CalculatorOnWinForm.pdb
+C:\Users\offic\source\repos\CalculatorOnWinForm\CalculatorOnWinForm\obj\Release\CalculatorOnWinForm.ButPanel.resources
