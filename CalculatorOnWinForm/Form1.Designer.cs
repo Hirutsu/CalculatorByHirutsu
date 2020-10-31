@@ -29,6 +29,9 @@
         private void InitializeComponent()
         {
             this.SettingPanel = new System.Windows.Forms.Panel();
+            this.ButChangeBG = new System.Windows.Forms.PictureBox();
+            this.ButRollUp = new System.Windows.Forms.PictureBox();
+            this.CloseButton = new System.Windows.Forms.PictureBox();
             this.But7 = new System.Windows.Forms.Button();
             this.TextBox = new System.Windows.Forms.TextBox();
             this.But8 = new System.Windows.Forms.Button();
@@ -50,18 +53,17 @@
             this.ButPoint = new System.Windows.Forms.Button();
             this.ButEraseAll = new System.Windows.Forms.Button();
             this.LinePanel = new System.Windows.Forms.PictureBox();
-            this.ButChangeBG = new System.Windows.Forms.PictureBox();
-            this.ButRollUp = new System.Windows.Forms.PictureBox();
-            this.CloseButton = new System.Windows.Forms.PictureBox();
+            this.MainName = new System.Windows.Forms.Label();
             this.SettingPanel.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.LinePanel)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ButChangeBG)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ButRollUp)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.CloseButton)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.LinePanel)).BeginInit();
             this.SuspendLayout();
             // 
             // SettingPanel
             // 
+            this.SettingPanel.Controls.Add(this.MainName);
             this.SettingPanel.Controls.Add(this.ButChangeBG);
             this.SettingPanel.Controls.Add(this.ButRollUp);
             this.SettingPanel.Controls.Add(this.CloseButton);
@@ -72,6 +74,40 @@
             this.SettingPanel.TabIndex = 1;
             this.SettingPanel.MouseDown += new System.Windows.Forms.MouseEventHandler(this.ButEraseAll_MouseDown);
             this.SettingPanel.MouseMove += new System.Windows.Forms.MouseEventHandler(this.ButEraseAll_MouseMove);
+            // 
+            // ButChangeBG
+            // 
+            this.ButChangeBG.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.ButChangeBG.Image = global::CalculatorByHirutsu.Properties.Resources.CirclePhone;
+            this.ButChangeBG.Location = new System.Drawing.Point(258, 6);
+            this.ButChangeBG.Name = "ButChangeBG";
+            this.ButChangeBG.Size = new System.Drawing.Size(27, 27);
+            this.ButChangeBG.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.ButChangeBG.TabIndex = 2;
+            this.ButChangeBG.TabStop = false;
+            this.ButChangeBG.Click += new System.EventHandler(this.ButChangeBG_Click);
+            // 
+            // ButRollUp
+            // 
+            this.ButRollUp.Image = global::CalculatorByHirutsu.Properties.Resources.Circle_yellow;
+            this.ButRollUp.Location = new System.Drawing.Point(291, 6);
+            this.ButRollUp.Name = "ButRollUp";
+            this.ButRollUp.Size = new System.Drawing.Size(27, 27);
+            this.ButRollUp.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.ButRollUp.TabIndex = 1;
+            this.ButRollUp.TabStop = false;
+            this.ButRollUp.Click += new System.EventHandler(this.ButRollUp_Click);
+            // 
+            // CloseButton
+            // 
+            this.CloseButton.Image = global::CalculatorByHirutsu.Properties.Resources.Circle;
+            this.CloseButton.Location = new System.Drawing.Point(333, 6);
+            this.CloseButton.Name = "CloseButton";
+            this.CloseButton.Size = new System.Drawing.Size(27, 27);
+            this.CloseButton.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.CloseButton.TabIndex = 0;
+            this.CloseButton.TabStop = false;
+            this.CloseButton.Click += new System.EventHandler(this.CloseButton_Click);
             // 
             // But7
             // 
@@ -426,7 +462,6 @@
             // LinePanel
             // 
             this.LinePanel.Dock = System.Windows.Forms.DockStyle.Top;
-            this.LinePanel.Image = global::CalculatorOnWinForm.Properties.Resources.line;
             this.LinePanel.Location = new System.Drawing.Point(0, 40);
             this.LinePanel.Name = "LinePanel";
             this.LinePanel.Size = new System.Drawing.Size(367, 8);
@@ -436,39 +471,16 @@
             this.LinePanel.MouseDown += new System.Windows.Forms.MouseEventHandler(this.ButEraseAll_MouseDown);
             this.LinePanel.MouseMove += new System.Windows.Forms.MouseEventHandler(this.ButEraseAll_MouseMove);
             // 
-            // ButChangeBG
+            // MainName
             // 
-            this.ButChangeBG.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.ButChangeBG.Image = global::CalculatorOnWinForm.Properties.Resources.CirclePhone;
-            this.ButChangeBG.Location = new System.Drawing.Point(258, 6);
-            this.ButChangeBG.Name = "ButChangeBG";
-            this.ButChangeBG.Size = new System.Drawing.Size(27, 27);
-            this.ButChangeBG.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.ButChangeBG.TabIndex = 2;
-            this.ButChangeBG.TabStop = false;
-            this.ButChangeBG.Click += new System.EventHandler(this.ButChangeBG_Click);
-            // 
-            // ButRollUp
-            // 
-            this.ButRollUp.Image = global::CalculatorOnWinForm.Properties.Resources.Circle_yellow;
-            this.ButRollUp.Location = new System.Drawing.Point(291, 6);
-            this.ButRollUp.Name = "ButRollUp";
-            this.ButRollUp.Size = new System.Drawing.Size(27, 27);
-            this.ButRollUp.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.ButRollUp.TabIndex = 1;
-            this.ButRollUp.TabStop = false;
-            this.ButRollUp.Click += new System.EventHandler(this.ButRollUp_Click);
-            // 
-            // CloseButton
-            // 
-            this.CloseButton.Image = global::CalculatorOnWinForm.Properties.Resources.Circle;
-            this.CloseButton.Location = new System.Drawing.Point(333, 6);
-            this.CloseButton.Name = "CloseButton";
-            this.CloseButton.Size = new System.Drawing.Size(27, 27);
-            this.CloseButton.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.CloseButton.TabIndex = 0;
-            this.CloseButton.TabStop = false;
-            this.CloseButton.Click += new System.EventHandler(this.CloseButton_Click);
+            this.MainName.AutoSize = true;
+            this.MainName.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.MainName.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.MainName.Location = new System.Drawing.Point(8, 9);
+            this.MainName.Name = "MainName";
+            this.MainName.Size = new System.Drawing.Size(173, 24);
+            this.MainName.TabIndex = 3;
+            this.MainName.Text = "CalculatorByHirutsu";
             // 
             // ButPanel
             // 
@@ -503,10 +515,11 @@
             this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.ButEraseAll_MouseDown);
             this.MouseMove += new System.Windows.Forms.MouseEventHandler(this.ButEraseAll_MouseMove);
             this.SettingPanel.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.LinePanel)).EndInit();
+            this.SettingPanel.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.ButChangeBG)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ButRollUp)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.CloseButton)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.LinePanel)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -538,6 +551,7 @@
         private System.Windows.Forms.Button ButPoint;
         private System.Windows.Forms.Button ButEraseAll;
         private System.Windows.Forms.PictureBox ButChangeBG;
+        private System.Windows.Forms.Label MainName;
     }
 }
 

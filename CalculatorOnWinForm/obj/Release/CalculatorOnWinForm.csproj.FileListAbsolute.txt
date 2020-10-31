@@ -8,3 +8,13 @@ C:\Users\offic\source\repos\CalculatorOnWinForm\CalculatorOnWinForm\obj\Release\
 C:\Users\offic\source\repos\CalculatorOnWinForm\CalculatorOnWinForm\obj\Release\CalculatorOnWinForm.exe
 C:\Users\offic\source\repos\CalculatorOnWinForm\CalculatorOnWinForm\obj\Release\CalculatorOnWinForm.pdb
 C:\Users\offic\source\repos\CalculatorOnWinForm\CalculatorOnWinForm\obj\Release\CalculatorOnWinForm.ButPanel.resources
+G:\H1RUTSU\HOBBY\PROG\FinishedProjects\CalculatorByHirutsu\CalculatorOnWinForm\bin\Release\CalculatorByHirutsu.exe.config
+G:\H1RUTSU\HOBBY\PROG\FinishedProjects\CalculatorByHirutsu\CalculatorOnWinForm\bin\Release\CalculatorByHirutsu.exe
+G:\H1RUTSU\HOBBY\PROG\FinishedProjects\CalculatorByHirutsu\CalculatorOnWinForm\bin\Release\CalculatorByHirutsu.pdb
+G:\H1RUTSU\HOBBY\PROG\FinishedProjects\CalculatorByHirutsu\CalculatorOnWinForm\obj\Release\CalculatorOnWinForm.csprojAssemblyReference.cache
+G:\H1RUTSU\HOBBY\PROG\FinishedProjects\CalculatorByHirutsu\CalculatorOnWinForm\obj\Release\CalculatorOnWinForm.ButPanel.resources
+G:\H1RUTSU\HOBBY\PROG\FinishedProjects\CalculatorByHirutsu\CalculatorOnWinForm\obj\Release\CalculatorByHirutsu.Properties.Resources.resources
+G:\H1RUTSU\HOBBY\PROG\FinishedProjects\CalculatorByHirutsu\CalculatorOnWinForm\obj\Release\CalculatorOnWinForm.csproj.GenerateResource.cache
+G:\H1RUTSU\HOBBY\PROG\FinishedProjects\CalculatorByHirutsu\CalculatorOnWinForm\obj\Release\CalculatorOnWinForm.csproj.CoreCompileInputs.cache
+G:\H1RUTSU\HOBBY\PROG\FinishedProjects\CalculatorByHirutsu\CalculatorOnWinForm\obj\Release\CalculatorByHirutsu.exe
+G:\H1RUTSU\HOBBY\PROG\FinishedProjects\CalculatorByHirutsu\CalculatorOnWinForm\obj\Release\CalculatorByHirutsu.pdb
