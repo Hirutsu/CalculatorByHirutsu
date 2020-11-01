@@ -40,15 +40,18 @@ namespace CalculatorOnWinForm
             if ( (TextBox.Text == "0") && (isNum) )
             {
                 TextBox.Text = numButton.Text;
+                TextboxForAllOperation.Text = numButton.Text;
             }
             else
             {
                 if ( (!numButton.Text.Contains(",")) && numButton.Text == "," )
                 {
+                    TextboxForAllOperation.Text += numButton.Text;
                     TextBox.Text = TextBox.Text + numButton.Text;
                 }
                 else
                 {
+                    TextboxForAllOperation.Text += numButton.Text;
                     TextBox.Text = TextBox.Text + numButton.Text;
                 }
             }
@@ -71,10 +74,24 @@ namespace CalculatorOnWinForm
             this.WindowState = FormWindowState.Minimized;
         }
 
+        private bool IsOperation(char operation)
+        {
+            if( (operation=='/') && (operation == '*') && (operation == '+') && (operation == '-') && (operation == '%') )
+            {
+                return true;
+            }
+            return false;
+        }
+
         private void ButDivision_Click(object sender, EventArgs e)
         {
             Button buttonAct = (Button)sender;
             act = buttonAct.Text;
+            if(IsOperation(TextboxForAllOperation.Text[TextboxForAllOperation.Text.Length-1]))
+            {
+                TextboxForAllOperation.Text = TextboxForAllOperation.Text.Substring(0, TextboxForAllOperation.Text.Length - 2);
+                TextboxForAllOperation.Text += act; 
+            }
             tempVariable = TextBox.Text;
             flag = true;
 
