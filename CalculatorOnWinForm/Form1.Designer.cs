@@ -55,7 +55,7 @@
             this.ButPoint = new System.Windows.Forms.Button();
             this.ButEraseAll = new System.Windows.Forms.Button();
             this.LinePanel = new System.Windows.Forms.PictureBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.TextboxForAllOperation = new System.Windows.Forms.TextBox();
             this.SettingPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.ButChangeBG)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ButRollUp)).BeginInit();
@@ -484,15 +484,15 @@
             this.LinePanel.MouseDown += new System.Windows.Forms.MouseEventHandler(this.ButEraseAll_MouseDown);
             this.LinePanel.MouseMove += new System.Windows.Forms.MouseEventHandler(this.ButEraseAll_MouseMove);
             // 
-            // textBox1
+            // TextboxForAllOperation
             // 
-            this.textBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(35)))), ((int)(((byte)(39)))));
-            this.textBox1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBox1.Location = new System.Drawing.Point(0, 99);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(367, 29);
-            this.textBox1.TabIndex = 40;
+            this.TextboxForAllOperation.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(35)))), ((int)(((byte)(39)))));
+            this.TextboxForAllOperation.Dock = System.Windows.Forms.DockStyle.Top;
+            this.TextboxForAllOperation.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.TextboxForAllOperation.Location = new System.Drawing.Point(0, 99);
+            this.TextboxForAllOperation.Name = "TextboxForAllOperation";
+            this.TextboxForAllOperation.Size = new System.Drawing.Size(367, 29);
+            this.TextboxForAllOperation.TabIndex = 40;
             // 
             // ButPanel
             // 
@@ -500,7 +500,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(35)))), ((int)(((byte)(39)))));
             this.ClientSize = new System.Drawing.Size(367, 565);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.TextboxForAllOperation);
             this.Controls.Add(this.ButEraseAll);
             this.Controls.Add(this.ButPoint);
             this.Controls.Add(this.But0);
@@ -566,7 +566,7 @@
         private System.Windows.Forms.Button ButEraseAll;
         private System.Windows.Forms.PictureBox ButChangeBG;
         private System.Windows.Forms.Label MainName;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox TextboxForAllOperation;
     }
 }
 

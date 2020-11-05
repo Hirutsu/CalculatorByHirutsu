@@ -77,7 +77,6 @@ namespace CalculatorOnWinForm
             act = buttonAct.Text;
             tempVariable = TextBox.Text;
             flag = true;
-
         }
         private void ButEqually_Click(object sender, EventArgs e)
         {
